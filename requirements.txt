@@ -1,4 +1,5 @@
-
+-e git+https://github.com/agonzalezro/python-opensubtitles@a4cdba1ef5c8a16d5e94c1b17f0e209e23717af1#egg=python_opensubtitles
+requests==2.21.0
 pytest==4.4.1
 pytest-cov==2.6.1
 pytest-runner==4.4
