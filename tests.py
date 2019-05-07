@@ -5,7 +5,7 @@ import os
 
 
 token = session.login("rlirey@gmail.com", "443182lotr")
-tv_path = "./Game of Thrones - S01E01.mkv"
+tv_path = "./Game of Thrones - S01E01.m4v"
 movie_path = "./Avengers - Age of Ultron.mp4"
 
 
@@ -20,7 +20,7 @@ def test_class():
 
 
 def test_tv_search():
-    tv.tv_search('./Game of Thrones - S01E01.mkv')
+    tv.tv_search('./Game of Thrones - S01E01.m4v')
     assert tv.file
     assert tv.url
     assert tv.srt
