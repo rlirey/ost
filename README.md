@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/rlirey/ost.svg?branch=master)](https://travis-ci.org/rlirey/ost)
-[![Coverage Status](https://coveralls.io/repos/github/rlirey/ost/badge.svg?branch=master)](https://coveralls.io/github/rlirey/ost?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/rlirey/ost/badge.svg)](https://coveralls.io/github/rlirey/ost)
 [![Documentation Status](https://readthedocs.org/projects/ost/badge/?version=latest)](https://ost.readthedocs.io/en/latest/?badge=latest)
 
 # OST (OpenSubtitles)
