@@ -5,8 +5,8 @@ import os
 
 
 token = session.login("rlirey@gmail.com", "443182lotr")
-tv_path = "./Game of Thrones - S01E01.m4v"
-movie_path = "./Avengers - Age of Ultron.mp4"
+tv_path = "Game of Thrones - S01E01.m4v"
+movie_path = "Avengers - Age of Ultron.mp4"
 
 
 tv = ost.TV()
@@ -20,7 +20,7 @@ def test_class():
 
 
 def test_tv_search():
-    tv.tv_search('./Game of Thrones - S01E01.m4v')
+    tv.tv_search('Game of Thrones - S01E01.m4v')
     assert tv.file
     assert tv.url
     assert tv.srt
@@ -28,11 +28,11 @@ def test_tv_search():
 
 def test_tv_download():
     tv.download(path)
-    assert os.path.isfile('./Game of Thrones - S01E01.srt')
+    assert os.path.isfile('Game of Thrones - S01E01.srt')
 
 
 def test_movie_search():
-    movie.movie_search('./Avengers - Age of Ultron.mp4')
+    movie.movie_search('Avengers - Age of Ultron.mp4')
     assert movie.file
     assert movie.url
     assert movie.srt
@@ -40,4 +40,4 @@ def test_movie_search():
 
 def test_movie_download():
     movie.download(path)
-    assert os.path.isfile('./Avengers - Age of Ultron.srt')
+    assert os.path.isfile('Avengers - Age of Ultron.srt')
