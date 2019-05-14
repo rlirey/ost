@@ -14,35 +14,33 @@ University of Minnesota
 `ost` is an interface for downloading movie/television subtitles using Python 3.
 
 The following functionality is included in the package:
-  - Calculation of propensity scores based on a specified model
-  - Matching of _k_ controls to each treatment case
-  - Evaluation of the matching process using statistical methods
+  - Blah
+  - Blah
+  - Blah
 
 ### Technology
 
-`psmatching` uses a number of open source projects to work properly:
+`ost` uses a number of open source projects to work properly:
 
-* [`pandas`](https://pandas.pydata.org/)
-* [`numpy`](https://www.numpy.org/)
-* [`scipy`](https://www.scipy.org/)
-* [`statsmodels`](https://www.statsmodels.org/stable/index.html)
+* [`Python-OpenSubtitles`](https://github.com/agonzalezro/python-opensubtitles)
+* [`Requests`](https://2.python-requests.org/en/master/)
 
-`psmatching` itself is open source with a [public repository](https://github.com/rlirey/psmatching) on GitHub.
+`ost` itself is open source with a [public repository](https://github.com/rlirey/ost) on GitHub.
 
 ### Installation
-Install `psmatching` via `pip`
+Install `ost` via `pip`
 ```sh
-$ pip install psmatching
+$ pip install ost
 ```
 ### Example
 Coming soon!
 
 ### Documentation
-Documentation for this package can be found [here](https://psmatching.readthedocs.io/en/latest/).
+Documentation for this package can be found [here](https://ost.readthedocs.io/en/latest/).
 Documentation is currently under construction!
 
 ### Acknowledgments
-Parts of this package's source code are modified from Kellie Otto's pscore-match package. More info on that package can be found [here](http://www.kellieottoboni.com/pscore_match/).
+Parts of this package's source code are modified from
 
 ### License
 Apache 2.0
