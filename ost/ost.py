@@ -27,7 +27,7 @@ class OST(object):
         return "Subtitles downloaded!"
 
 
-class TV(OST):
+class TVsubs(OST):
 
 
     def tv_search(self, file, **kwargs):
@@ -50,7 +50,7 @@ class TV(OST):
             print(file + ": subtitles not found!")
 
 
-class MOVIE(OST):
+class MOVIEsubs(OST):
 
 
     def movie_search(self, file, **kwargs):
